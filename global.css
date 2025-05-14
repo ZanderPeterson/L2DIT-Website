@@ -11,3 +11,8 @@ header {
 	background-color: white;
 	display: grid;
 }
+
+#logo {
+	height: 120px;
+	margin: 11px;
+}
