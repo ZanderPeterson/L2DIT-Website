@@ -9,7 +9,7 @@ header {
 	right: 0px;
 	height: 144px;
 	background-color: white;
-	grid-template-columns: 40vw 20vw 40vw;
+	grid-template-columns: 20vw 60vw 20vw;
 	display: grid;
 }
 
