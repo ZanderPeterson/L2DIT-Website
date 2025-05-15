@@ -17,3 +17,13 @@ header {
 	height: 144px;
 	margin: 0px;
 }
+
+footer {
+	position: fixed;
+	top: 100vh;
+	left: 0px;
+	right: 0px;
+	transform: translate(0%, -80px);
+	height: 80px;
+	background-color: white;
+}
