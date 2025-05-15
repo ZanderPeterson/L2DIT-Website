@@ -26,6 +26,6 @@ footer {
 	transform: translate(0%, -80px);
 	height: 80px;
 	background-color: white;
-	grid-template-columns: 20vw 60vw 20vw;
+	grid-template-columns: 30vw 40vw 30vw;
 	display: grid;
 }
