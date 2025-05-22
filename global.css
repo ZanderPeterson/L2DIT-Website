@@ -1,5 +1,5 @@
 body {
-	background-color: #f68b1f
+	background-color: #f68b1f;
 }
 
 header {
@@ -34,4 +34,8 @@ footer {
 	background-color: white;
 	grid-template-columns: 30vw 40vw 30vw;
 	display: grid;
+}
+
+p {
+	font-size: 20px;
 }
