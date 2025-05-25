@@ -49,3 +49,12 @@ p {
 	font-style: italic;
 	color: black;
 }
+
+.quote:link {
+  text-decoration: none;
+}
+
+.quote:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
