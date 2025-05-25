@@ -1,6 +1,15 @@
+#about_us {
+	grid-template-columns: 60vw 30vw;
+	display: grid;
+}
+
 #about_us_text {
 	top: 50%;
 	left: 50%;
-	width: 60vw;
 	text-align: left;
+}
+
+#2025_hyc_group_photo {
+	width: 30vw;
+	margin: 5px;
 }
