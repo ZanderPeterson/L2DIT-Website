@@ -10,6 +10,7 @@
 }
 
 #2025_hyc_group_photo {
-	width: 30vw;
+	max-width: 30vw;
+	height: auto;
 	margin: 5px;
 }
