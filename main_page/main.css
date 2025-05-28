@@ -1,5 +1,5 @@
 #about_us {
-	grid-template-columns: 60vw 30vw;
+	grid-template-columns: 60vw auto 30vw;
 	display: grid;
 }
 
