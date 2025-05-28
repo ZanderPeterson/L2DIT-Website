@@ -9,6 +9,16 @@
 	text-align: left;
 }
 
+#abous_us_images {
+	grid-template-rows: auto auto;
+	display: grid;
+}
+
+#about_us_images_lower {
+	grid-template-columns: auto auto auto;
+	display: grid;
+}
+
 #2025_hyc_group_photo {
 	max-width: 30vw;
 	height: auto;
