@@ -10,7 +10,7 @@
 }
 
 #abous_us_images {
-	grid-template-rows: auto auto;
+	grid-template-rows: auto auto auto;
 	display: grid;
 }
 
