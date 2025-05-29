@@ -41,6 +41,10 @@ footer {
 	display: grid;
 }
 
+#instagram {
+	margin: 4px;
+}
+
 p {
 	font-size: 18px;
 }
