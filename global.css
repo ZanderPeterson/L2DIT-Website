@@ -1,0 +1,69 @@
+body {
+	background-color: #f68b1f;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 144px;
+	background-color: white;
+	grid-template-columns: 20vw 60vw 20vw;
+	display: grid;
+}
+
+#hyc_logo {
+	height: 144px;
+	margin: 0px;
+}
+
+#content {
+	margin-top: 150px;
+	padding: 5px;
+}
+
+#hdc_logo {
+	height: 60px;
+	margin: 10px;
+	margin-right: 25px;
+	float: right
+}
+
+footer {
+	position: fixed;
+	top: 100vh;
+	left: 0px;
+	right: 0px;
+	transform: translate(0%, -80px);
+	height: 80px;
+	background-color: white;
+	grid-template-columns: 30vw 40vw 30vw;
+	display: grid;
+}
+
+#instagram {
+	margin: 10px;
+}
+
+#facebook {
+	margin: 10px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.quote {
+	font-style: italic;
+	color: black;
+}
+
+.quote:link {
+  text-decoration: none;
+}
+
+.quote:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
