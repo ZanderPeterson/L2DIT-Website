@@ -34,7 +34,7 @@ header {
 	
 	/* There are three links, so there are three rows of equal height (30px). 
 	The top-most and lower-most rows are of automatic height and serves to centre the links. */
-	grid-template-rows: auto 30px 30px 30px auto;
+	grid-template-rows: 6px 28px 28px 28px auto;
 	display: grid;
 }
 
