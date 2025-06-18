@@ -1,0 +1,40 @@
+/* This CSS File only applies to the subcommittees.html page. */
+
+#representation {
+	grid-template-columns: 50vw 50vw;
+	display: grid;
+}
+
+#representation_images_row_1 {
+	grid-template-columns: 300px 300px;
+	display: grid;
+}
+
+#representation_images_row_2 {
+	grid-template-columns: 300px 300px;
+	display: grid;
+}
+
+#representation_images_row_3 {
+	grid-template-columns: 300px 300px;
+	display: grid;
+}
+
+#representation_images_row_4 {
+	grid-template-columns: 300px 300px;
+	display: grid;
+}
+
+.profile {
+	text-align: center;
+	width: 333px;
+	height: auto;
+	margin: 0px;
+	
+	grid-template-rows: 333px auto auto;
+	display: grid;
+}
+
+.profile_header {
+	margin: 0px;
+}
