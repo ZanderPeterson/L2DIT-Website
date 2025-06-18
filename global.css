@@ -88,7 +88,14 @@ footer {
 }
 
 p {
-	font-size: 18px; /* This font size is large enough for people with small visual impairments to be able to read. 
+	font-size: 18px; /* This font size is large enough for people with small visual impairments to be able to read. */
+}
+
+.content_box {
+	background-color: #fbc58f; /* This colour, #fbc58f, is mathematically halfway between #f68b1f and #ffffff */
+	border-radius: 25px;
+	margin: 15px;
+	padding: 15px;
 }
 
 /* Describes the quotes class - which is a class of links that is used for quotes that link to other places, such as another website. */
