@@ -16,7 +16,7 @@ header {
 	/* 20% of the Header's Width is the first collumn - which contains the Hastings Youth Council Logo.
 	60% of the Header's Width is the second collumn - mostly negative space, but does contain the 'Youth Week!' message.
 	20% of the Header's Width is the third collumn - this contains the important links. */
-	grid-template-columns: 20vw 60vw 20vw;
+	grid-template-columns: 30vw 40vw 30vw;
 	display: grid;
 }
 
@@ -25,6 +25,7 @@ header {
 	One collumn contains the 'Important Links' text, and the other contains the links themselves. */
 	grid-template-columns: auto auto;
 	display: grid;
+	margin-right: 25px;
 }
 
 #header_3_links {
