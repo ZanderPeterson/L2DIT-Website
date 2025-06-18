@@ -1,7 +1,7 @@
 /* This CSS File only applies to the subcommittees.html page. */
 
 #representation {
-	grid-template-columns: 50vw 50vw;
+	grid-template-columns: 55vw 45vw;
 	display: grid;
 }
 
@@ -33,6 +33,10 @@
 	
 	grid-template-rows: 333px auto auto;
 	display: grid;
+}
+
+.profile_image {
+	border-radius: 5px;
 }
 
 .profile_header {
