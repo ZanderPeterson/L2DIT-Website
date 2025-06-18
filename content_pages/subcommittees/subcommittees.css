@@ -1,7 +1,7 @@
 /* This CSS File only applies to the subcommittees.html page. */
 
 #representation {
-	grid-template-columns: 55vw 45vw;
+	grid-template-columns: 57vw 43vw;
 	display: grid;
 }
 
