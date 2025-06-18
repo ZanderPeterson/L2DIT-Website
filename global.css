@@ -88,8 +88,17 @@ footer {
 	float: right
 }
 
+h1 {
+	color: #162c42; /* Colour in Hastings Youth Council Logo */
+}
+
+h2 {
+	color: #162c42; /* Colour in Hastings Youth Council Logo */
+}
+
 p {
-	font-size: 18px; /* This font size is large enough for people with small visual impairments to be able to read. */
+	font-size: 20px; /* This font size is large enough for people with small visual impairments to be able to read. */
+	color: #162c42; /* Colour in Hastings Youth Council Logo */
 }
 
 .content_box {
@@ -102,7 +111,7 @@ p {
 /* Describes the quotes class - which is a class of links that is used for quotes that link to other places, such as another website. */
 .quote {
 	font-style: italic;
-	color: black;
+	color: #162c42; /* Colour in Hastings Youth Council Logo */
 }
 
 .quote:link {
@@ -111,5 +120,5 @@ p {
 
 .quote:hover {
   text-decoration: underline; /* Adds an underline to the quote when hovered over. */
-  text-decoration-color: black;
+  text-decoration-color: #162c42; /* Colour in Hastings Youth Council Logo */
 }
