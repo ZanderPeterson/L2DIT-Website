@@ -75,6 +75,7 @@ footer {
 
 #facebook {
 	margin: 15px; /* Allows for the Facebook Icon to be spaced out & centred */
+	margin-left: 0px; /* This brings the logos a little closer together, while still abiding by Facebook's logo use policy */
 }
 
 #hdc_logo {
