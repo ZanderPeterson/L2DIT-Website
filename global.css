@@ -1,5 +1,8 @@
+/* Global CSS File - Applies to ALL Pages, and describes Headers, Footers, and some useful classes such as for Quotes. */
+
 body {
-	background-color: #f68b1f;
+	/* This colour was colour-picked from the splash of colour in the Hastigns Youth Council Logo. */
+	background-color: #f68b1f; 
 }
 
 header {
@@ -9,61 +12,113 @@ header {
 	right: 0px;
 	height: 144px;
 	background-color: white;
-	grid-template-columns: 20vw 60vw 20vw;
+	
+	/* 20% of the Header's Width is the first collumn - which contains the Hastings Youth Council Logo.
+	60% of the Header's Width is the second collumn - mostly negative space, but does contain the 'Youth Week!' message.
+	20% of the Header's Width is the third collumn - this contains the important links. */
+	grid-template-columns: 30vw 40vw 30vw;
+	display: grid;
+}
+
+#header_3 {
+	/* Describes the right-most chunk of the Header - this is split up into two collumns of automatic widths.
+	One collumn contains the 'Important Links' text, and the other contains the links themselves. */
+	grid-template-columns: auto auto;
+	display: grid;
+	margin-right: 25px;
+}
+
+#header_3_links {
+	margin-left: 20px;
+	margin-right: 30px; /* Allows for proper spacing from the right edge of the page */
+	
+	/* There are three links, so there are three rows of equal height (30px). 
+	The top-most and lower-most rows are of automatic height and serves to centre the links. */
+	grid-template-rows: 6px 28px 28px 28px auto;
 	display: grid;
 }
 
 #hyc_logo {
-	height: 144px;
+	height: 144px; /* Same height as the Header - as Sprint 1 Trialing showed the logo should be as big as possible. */
 	margin: 0px;
 }
 
 #content {
-	margin-top: 150px;
+	margin-top: 150px; /* Prevents any content from appearing underneath the Header */
 	padding: 5px;
-}
-
-#hdc_logo {
-	height: 60px;
-	margin: 10px;
-	margin-right: 25px;
-	float: right
 }
 
 footer {
 	position: fixed;
-	top: 100vh;
 	left: 0px;
 	right: 0px;
-	transform: translate(0%, -80px);
 	height: 80px;
+	
+	/* Correctly positions the Footer at the bottom of the page. 
+	This is achieved by setting the footer to the bottom of the page (100% of height),
+	then bringing it up by 80px (the height of the footer) */
+	top: 100vh;
+	transform: translate(0%, -80px); /* Height of Footer */
+	
 	background-color: white;
+	
+	/* Sets up the footer's collumns.
+	30% is allocated to the Social Media Icons
+	40% is allocated to negative space at the bottom of the page
+	30% is allocated to the Hastings District Council Logo. */
 	grid-template-columns: 30vw 40vw 30vw;
 	display: grid;
 }
 
 #instagram {
-	margin: 10px;
+	margin: 15px; /* Allows for the Instagram Icon to be spaced out & centred */
 }
 
 #facebook {
+	margin: 15px; /* Allows for the Facebook Icon to be spaced out & centred */
+	margin-left: 0px; /* This brings the logos a little closer together, while still abiding by Facebook's logo use policy */
+}
+
+#hdc_logo {
+	/* Since the Footer is 80px tall, the Hastings District Council Logo has been made to be 60px tall, with a 10px margin around it. */
+	height: 60px;
 	margin: 10px;
+	
+	margin-right: 25px; /* More margin is added to the right to appropriately space the Hastings District Council Logo from the right-side of the page. */
+	float: right
+}
+
+h1 {
+	color: #162c42; /* Colour in Hastings Youth Council Logo */
+}
+
+h2 {
+	color: #162c42; /* Colour in Hastings Youth Council Logo */
 }
 
 p {
-	font-size: 18px;
+	font-size: 20px; /* This font size is large enough for people with small visual impairments to be able to read. */
+	color: #162c42; /* Colour in Hastings Youth Council Logo */
 }
 
+.content_box {
+	background-color: #fbc58f; /* This colour, #fbc58f, is mathematically halfway between #f68b1f and #ffffff */
+	border-radius: 25px;
+	margin: 15px;
+	padding: 15px;
+}
+
+/* Describes the quotes class - which is a class of links that is used for quotes that link to other places, such as another website. */
 .quote {
 	font-style: italic;
-	color: black;
+	color: #162c42; /* Colour in Hastings Youth Council Logo */
 }
 
 .quote:link {
-  text-decoration: none;
+  text-decoration: none; /* Removes the default underline from the quote. */
 }
 
 .quote:hover {
-  text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration: underline; /* Adds an underline to the quote when hovered over. */
+  text-decoration-color: #162c42; /* Colour in Hastings Youth Council Logo */
 }

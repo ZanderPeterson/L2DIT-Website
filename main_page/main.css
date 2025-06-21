@@ -9,7 +9,7 @@
 	text-align: left;
 }
 
-#abous_us_images {
+#about_us_images {
 	grid-template-rows: auto auto auto;
 	display: grid;
 }
